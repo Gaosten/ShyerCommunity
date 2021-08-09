@@ -37,6 +37,8 @@ npm init
 nodemon app
 ```
 
+##登录，注册页面正常，后端启动成功
+![image](https://user-images.githubusercontent.com/58848635/128704886-e84ad541-c394-4599-9067-bdfe3bfc539f.png)
 
 
 
