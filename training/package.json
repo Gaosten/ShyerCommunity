@@ -1,0 +1,45 @@
+{
+  "name": "training",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "core-js": "^3.6.5",
+    "element-ui": "^2.15.2",
+    "express": "^4.17.1",
+    "ityped": "^1.0.3",
+    "less": "^4.1.1",
+    "less-loader": "^6.0.0",
+    "lib-flexible": "^0.3.2",
+    "module-alias": "^2.2.2",
+    "typed.js": "^2.0.12",
+    "vue": "^2.6.11",
+    "vue-bus": "^1.2.1",
+    "vue-cli": "^2.9.6",
+    "vue-lottie": "^0.2.1",
+    "vue-router": "^3.5.1",
+    "vuex": "^3.6.2",
+    "vuex-persistedstate": "^4.0.0-beta.3"
+  },
+  "devDependencies": {
+    "@types/module-alias": "^2.0.0",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "postcss-pxtorem": "^5.1.1",
+    "px2rem-loader": "^0.1.9",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "_moduleAliases": {
+    "@root": ".",
+    "@deep": "src/some/very/deep/directory/or/file",
+    "@my_module": "lib/some-file.js",
+    "something": "src/foo"
+  },
+  "_moduleDirectories": [
+    "node_modules_custom"
+  ]
+}

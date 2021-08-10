@@ -1,0 +1,36 @@
+<template>
+<div>
+<tab-bar-mobile v-if="$store.state.screenWidth"></tab-bar-mobile>
+<tab-bar v-else></tab-bar>
+<keep-alive>
+<item-body></item-body> 
+</keep-alive>
+<bottom-bar></bottom-bar>
+</div>
+</template>
+
+<script>
+import ItemBody from './childcomps/ItemBody.vue'
+import TabBar from 'common/tabbar/TabBar.vue'
+import BottomBar from 'common/bottombar/BottomBar'
+import TabBarMobile from '../../components/common/tabbarmobile/TabBarMobile.vue'
+
+
+
+export default {
+components:{
+    TabBar,
+    BottomBar,
+    ItemBody,
+    TabBarMobile
+}
+}
+</script>
+
+<style>
+
+
+body {
+    background-color: #2c3e50 !important;
+}
+</style>
