@@ -1,4 +1,7 @@
-# 前端Vue
+
+# 项目启动步骤
+
+# 1.前端Vue
 
 
 
@@ -16,12 +19,14 @@ npm run serve
 ```
 npm run build
 ```
+## 主页正常，前端启动成功
+![image](https://user-images.githubusercontent.com/58848635/128705005-52a12b06-6e6c-440e-9300-bf30a4fec7d8.png)
 
-### Customize configuration、
 
 
 
-# 后端Node
+
+# 2.后端Node
 
 
 
@@ -37,6 +42,8 @@ npm init
 nodemon app
 ```
 
+## 登录，注册页面正常，后端启动成功
+![image](https://user-images.githubusercontent.com/58848635/128704886-e84ad541-c394-4599-9067-bdfe3bfc539f.png)
 
 
 
